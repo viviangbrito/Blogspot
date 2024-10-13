@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cursor.css">
+    <title>Currículo</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+        .curriculo {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container curriculo">
+        <div class="text-center">
+            <h1>Seu Nome</h1>
+            <p><strong>Email:</strong> seuemail@exemplo.com | <strong>Telefone:</strong> (00) 00000-0000</p>
+        </div>
+        <hr>
+        <h3>Experiência Profissional</h3>
+        <ul class="list-unstyled">
+            <li>
+                <h5>Nome da Empresa</h5>
+                <p><strong>Cargo:</strong> Seu cargo</p>
+                <p><strong>Período:</strong> Janeiro 2020 - Presente</p>
+                <p>Descrição das suas responsabilidades e conquistas.</p>
+            </li>
+            <!-- Adicione mais experiências conforme necessário -->
+        </ul>
+        <hr>
+        <h3>Educação</h3>
+        <ul class="list-unstyled">
+            <li>
+                <h5>Nome da Instituição</h5>
+                <p><strong>Curso:</strong> Nome do curso</p>
+                <p><strong>Período:</strong> Janeiro 2015 - Dezembro 2019</p>
+                <p>Descrição do curso e principais realizações.</p>
+            </li>
+            <!-- Adicione mais educação conforme necessário -->
+        </ul>
+        <hr>
+        <h3>Habilidades</h3>
+        <ul class="list-inline">
+            <li class="list-inline-item badge badge-primary">Habilidade 1</li>
+            <li class="list-inline-item badge badge-primary">Habilidade 2</li>
+            <li class="list-inline-item badge badge-primary">Habilidade 3</li>
+            <!-- Adicione mais habilidades conforme necessário -->
+        </ul>
+        <hr>
+        <h3>Projetos</h3>
+        <ul class="list-unstyled">
+            <li>
+                <h5>Nome do Projeto</h5>
+                <p>Descrição breve do projeto e suas contribuições.</p>
+            </li>
+            <!-- Adicione mais projetos conforme necessário -->
+        </ul>
+        <hr>
+        <h3>Formulário de Contato</h3>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Informações de Contato</legend>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" class="form-control" id="sobrenome" name="sobrenome" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" class="form-control" id="telefone" name="telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="lingua">Língua Aplicada no Serviço:</label>
+                    <select class="form-control" id="lingua" name="lingua" required>
+                        <option>Inglês</option>
+                        <option>Espanhol</option>
+                        <option>Francês</option>
+                        <option>Português (pt-br)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="prototipo">Upload do Protótipo:</label>
+                    <input type="file" class="form-control-file" id="prototipo" name="prototipo" accept=".pdf,.doc,.docx,.jpeg,.png" required>
+                </div>
+                <div class="form-group">
+                    <label for="linguagens">Linguagens Preferidas:</label>
+                    <select multiple class="form-control" id="linguagens" name="linguagens[]" required>
+                        <option>JavaScript</option>
+                        <option>Python</option>
+                        <option>Java</option>
+                        <option>C#</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Tipo de Banco de Dados Recomendado:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="mysql" name="banco-dados" value="MySQL" required>
+                        <label class="form-check-label" for="mysql">MySQL</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="postgresql" name="banco-dados" value="PostgreSQL">
+                        <label class="form-check-label" for="postgresql">PostgreSQL</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="mongodb" name="banco-dados" value="MongoDB">
+                        <label class="form-check-label" for="mongodb">MongoDB</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="turno">Turno de Preferência para Reuniões:</label>
+                    <select class="form-control" id="turno" name="turno" required>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="horario">Melhor Horário para Reuniões:</label>
+                    <input type="time" class="form-control" id="horario" name="horario" required>
+                </div>
+                <div class="form-group">
+                    <label for="data">Previsão de Entrega:</label>
+                    <input type="date" class="form-control" id="data" name="data" required>
+                </div>
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    cursor: url(https://2.bp.blogspot.com/-ZwGZ3WMZL60/W7j71WpjYdI/AAAAAAAAd90/ssLwr7u1hxIyBc0nl2oxicG39Qw1AMO2ACKgBGAs/s55/cursormouse.png),auto;
+    font: italic normal 21px 'Times New Roman', Times, FreeSerif, serif;
+    color: #ffffff;
+    background: #000000 url(//3.bp.blogspot.com/-aVpIT0wc-oE/XOCrQWVrjwI/AAAAAAAAi84/puHEPkZKvXUEjBtmwYhPs8OfSgmYtWYUACK4BGAYYCw/s0/tv.vampire.background.jpg) no-repeat fixed top center;
+      background-size: auto;
+    background-size: 100% 100%;
+  
+
+</body>
+</html>
+

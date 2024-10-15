@@ -1,266 +1,214 @@
-/* styles.css */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 300vh;
+    min-height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('/img/blood-stain.webp');
-    background-size: auto; /* Ajusta a imagem para cobrir todo o fundo */
-    background-repeat: repeat; /* Evita a repetição da imagem */
-    background-position: center center; /* Centraliza a imagem no fundo */
-    color: rgb(119, 0, 0); /* Cor do texto padrão */
-}
-
-body {
-    cursor: url('../img/cursor.png'), auto;
-  }
-  
-  
-  nav a {
-    color: rgb(119, 0, 0); /* Cor dos links padrão */
-    text-decoration: none; /* Remove o sublinhado */
-    margin: 0 15px; /* Espaço entre os links */
-}
-
-nav a:hover {
-    color: rgb(255, 6, 6); /* Cor dos links ao passar o mouse */
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-}
-
-
-#apresentacao {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
-    padding: 20px; /* Adiciona espaço interno */
-    border-radius: 10px; /* Arredonda os cantos */
-    margin: 10px; /* Margem entre os elementos */
-    text-align: center; /* Texto alinhado à esquerda */
-    width: 80%; /* Ajusta a largura dos containers */
-}
-
-#contato {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
-    padding: 20px; /* Adiciona espaço interno */
-    border-radius: 10px; /* Arredonda os cantos */
-    margin: 10px; /* Margem entre os elementos */
-    text-align: left; /* Texto alinhado à esquerda */
-    width: 80%; /* Ajusta a largura dos containers */
-}
-
-#apresentacao h2 {
-    color: rgb(119, 0, 0); /* Cor do texto do título */
-    padding: 10px; /* Espaço interno */
-}
-
-#apresentacao h3 {
-    color: rgb(119, 0, 0); /* Cor do texto do h3 */
-    padding: 10px; /* Espaço interno */
-}
-
-#contato h2 {
-    color: rgb(119, 0, 0); /* Cor do texto do h2 */
-    padding: 10px; /* Espaço interno */
-}
-
-
-nav {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    position: fixed; /* Mantém o menu fixo no topo */
-    top: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 1000; /* Garante que fique acima de outros elementos */
-}
-
-iframe {
-    width: 100%;
-    height: 600px; /* Ajuste a altura conforme necessário */
-    border: none;
-    margin-top: 50px; /* Espaço abaixo do menu para não cobrir o conteúdo */
-}
-
-
-footer {
-    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente para o footer */
-    color: rgb(255, 255, 255); /* Cor do texto do footer */
-    padding: 10px; /* Espaço interno */
-    text-align: center; /* Centraliza o texto do footer */
-}
-
-body {
-    background-image: url('/img/blood-stain.webp');
-    background-size: auto; /* Ajusta a imagem para cobrir todo o fundo */
-    background-repeat: repeat; /* Repete a imagem */
-    background-position: center center; /* Centraliza a imagem no fundo */
-    color: white; /* Cor padrão do texto */
-}
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 240vh;
-    margin: 0;
     background-image: url('/img/blood-stain.webp');
     background-size: auto;
     background-repeat: repeat;
     background-position: center center;
     color: rgb(119, 0, 0);
     font-size: 18px;
-        }
-
-#center {
-    width: 80%; /* Largura do container */
-    margin: 10px; /* Margem */
-}
-
-nav {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
-    padding: 10px; /* Espaço interno */
-    border-radius: 10px; /* Arredonda os cantos */
-    margin-bottom: 10px; /* Espaço abaixo do nav */
-    text-align: center; /* Centraliza o texto da navegação */
+    cursor: url('../img/cursor.png'), auto;
 }
 
 nav a {
-    color: rgb(119, 0, 0); /* Cor dos links */
-    text-decoration: none; /* Remove o sublinhado */
-    margin: 0 15px; /* Espaço entre os links */
+    color: rgb(119, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
 }
 
 nav a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: rgb(255, 6, 6);
+    text-decoration: underline;
+}
+
+#apresentacao {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 65px;
+    text-align: center;
+    width: 80%;
+}
+
+#contato {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: left;
+    width: 80%;
+}
+
+#apresentacao h2 {
+    color: rgb(119, 0, 0);
+    padding: 10px;
+}
+
+#apresentacao h3 {
+    color: rgb(119, 0, 0);
+    padding: 10px;
+}
+
+#contato h2 {
+    color: rgb(119, 0, 0);
+    padding: 10px;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#center {
+    width: 80%;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(119, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 iframe {
     width: 100%;
     height: 360px;
-    border: none; /* Remove a borda do iframe */
-    background-color: rgba(255, 255, 255, 0.747); /* Define um fundo branco para o iframe */
+    border: none;
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius: 10px;
+    color: rgb(119, 0, 0);
 }
-
 
 #sobre {
-    color: rgb(119, 0, 0); /* Muda a cor do texto da div sobre */
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente para destaque */
-    padding: 20px; /* Adiciona espaço interno */
-    border-radius: 10px; /* Arredonda os cantos */
-}
-
-
-#contato a {
-color: rgb(119, 0, 0); /* Cor dos links padrão */
-text-decoration: underline; /* Remove o sublinhado */
-margin: 0 15px; /* Espaço entre os links */
-}
-
-#contato a:hover {
-color: rgb(255, 6, 6); /* Cor dos links ao passar o mouse */
-text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-}
-
-
-
-iframe[src=""] + #placeholder {
-    display: block; /* Mostra o placeholder se o iframe estiver vazio */
-}
-
-#welcome {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
-    padding: 20px; /* Espaço interno */
-    border-radius: 10px; /* Arredonda os cantos */
-    box-shadow: 0 0 10px  rgb(119, 0, 0); /* Adiciona sombra para destaque */
-}
-
-p {
-    font-size: 24px; /* Aumenta o tamanho da fonte dos parágrafos */
-}
-
-#menu-bar {
-    margin-bottom: 20px; /* Adiciona espaço abaixo da barra de navegação */
-}
-
-#apresentacao {
-    margin-top: 200px; /* Adiciona espaço acima da seção de apresentação */
+    color: rgb(119, 0, 0);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
-    text-align: center;
 }
 
+#contato a {
+    color: rgb(119, 0, 0);
+    text-decoration: underline;
+    margin: 0 15px;
+}
+
+#contato a:hover {
+    color: rgb(255, 6, 6);
+    text-decoration: underline;
+}
+
+iframe[src=""] + #placeholder {
+    display: block;
+}
+
+#welcome {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(119, 0, 0);
+}
+
+#menu-bar {
+    margin-bottom: 20px;
+}
 
 #form-container label,
-#form-container input, 
-#form-container select, 
+#form-container input,
+#form-container select,
 #form-container textarea {
     width: calc(100% - 20px);
     padding: 8px;
     margin-bottom: 15px;
     border: 1px solid rgb(119, 0, 0);
     border-radius: 5px;
-    display: inline-block; /* Alinha os labels na mesma linha */
-    margin-right: 10px; /* Espaço entre os labels */
+    display: inline-block;
+    margin-right: 10px;
 }
-
-
 
 #form-container {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px; /* Mantém o padding */
+    padding: 10px;
     border-radius: 10px;
-    margin: 20px auto; /* Centraliza o formulário */
-    width: 70%; /* Aumenta a largura do formulário */
-    max-width: 800px; /* Limita a largura máxima */
+    margin: 20px auto;
+    width: 70%;
+    max-width: 800px;
 }
 
-
 #form-container fieldset {
-    border: 1px solid rgb(119, 0, 0); /* Borda do fieldset */
+    border: 1px solid rgb(119, 0, 0);
     padding: 10px;
     margin-bottom: 10px;
-    width: auto; /* Para que o fieldset acompanhe o tamanho do container */
+    width: auto;
 }
 
 #form-container button {
-    background-color: rgb(119, 0, 0); /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
-    border: 2px solid rgb(119, 0, 0); /* Cor da borda */
-    padding: 10px 20px; /* Espaçamento interno */
-    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
-    border-radius: 5px; /* Bordas arredondadas */
-    margin-top: 10px; /* Espaçamento superior */
+    background-color: rgb(119, 0, 0);
+    color: white;
+    border: 2px solid rgb(119, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 #form-container button:hover {
-    background-color: rgb(255, 6, 6); /* Cor do botão ao passar o mouse */
+    background-color: rgb(255, 6, 6);
 }
-
-
-
 
 #form-container input[type="radio"] {
-    margin-right: 5px; /* Espaço entre o botão de rádio e o label */
+    margin-right: 5px;
 }
-
 
 .radio-group {
     display: flex;
-    align-items: center; /* Alinha verticalmente os itens */
-    gap: 10px; /* Adiciona espaço entre os itens */
+    align-items: center;
+    gap: 10px;
 }
 
 .radio-group label {
-    margin-left: 5px; /* Diminui o espaço entre o botão de opção e o texto */
-    margin-right: 10px; /* Mantém algum espaço entre os rótulos */
+    margin-left: 5px;
+    margin-right: 10px;
 }
-
 
 .radio-group input[type="radio"] {
-    margin-right: px; /* Pequeno espaço entre o rádio e o rótulo */
+    margin-right: 0;
 }
-
-
